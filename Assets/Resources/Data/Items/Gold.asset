@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ebd82033c8da33498c9f46fd8c221dd, type: 3}
-  m_Name: Copper
+  m_Name: Gold
   m_EditorClassIdentifier: 
-  Name: 
-  Id: 
-  CanConjure: 0
+  Name: Gold
+  Id: 5
+  CanConjure: 1
   Icon: {fileID: 0}
   IsLocked: 0
   Quantity: 0
-  PerSecond: 0
+  PerSecond: 1

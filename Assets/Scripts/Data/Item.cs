@@ -6,7 +6,7 @@ using UnityEngine;
 public class Item : ScriptableObject
 {
     public string Name;
-    public string Id;
+    public int Id;
     public bool CanConjure;
     public Sprite Icon;
     public bool IsLocked;

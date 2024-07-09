@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class InventoryItem : MonoBehaviour
 {
     public Button ClojureButton;
-    public SpriteRenderer Renderer;
-    public TextMeshPro QuantityText;
-    public Item item;
+    public Image Image;
+    public TextMeshProUGUI QuantityText;
+    [HideInInspector] public Item Item;
 }

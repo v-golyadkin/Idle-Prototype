@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Iron
   Id: 2
   CanConjure: 1
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1255dbfa6d6eaee4b8a5f0b66cc23d75, type: 3}
   IsLocked: 0
   Quantity: 0
   PerSecond: 1

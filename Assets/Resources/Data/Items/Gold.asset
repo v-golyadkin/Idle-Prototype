@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Gold
   Id: 5
-  CanConjure: 1
+  CanConjure: 0
   Icon: {fileID: 21300000, guid: e3858f3ac9768d04da26125df55f4f3c, type: 3}
-  IsLocked: 0
+  IsLocked: 1
   Quantity: 0
   PerSecond: 1

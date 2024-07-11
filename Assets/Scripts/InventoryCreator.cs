@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryCreator : MonoBehaviour
 {
@@ -24,7 +25,34 @@ public class InventoryCreator : MonoBehaviour
             InventoryItem inventoryItem = instance.GetComponent<InventoryItem>();
             inventoryItem.Item = item;
 
-            inventoryItem.Image.sprite = item.Icon;
+            //inventoryItem.ConjureButton.gameObject.SetActive(item.CanConjure);
+
+            if(item.CanConjure)
+            {
+                SetButtonOnClickFunction(inventoryItem.ConjureButton, item);
+            }
+
+            if (item.IsLocked)
+            {
+                inventoryItem.Image.sprite = _lockIcon;
+                inventoryItem.NameText.text = "Close";
+            }
+            else
+            {
+                inventoryItem.Image.sprite = item.Icon;
+                inventoryItem.NameText.text = item.Name;
+            }
+            
         }
+    }
+
+    private void SetButtonOnClickFunction(Button button, Item item)
+    {
+        button.onClick.AddListener(delegate { SetConjure(item); });
+    }
+
+    private void SetConjure(Item item)
+    {
+        ItemManager.Instance.SetCurrentItem(item);
     }
 }

@@ -183,7 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3585cdcaf9b0e8d49ae8e69d17fb90ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ClojureButton: {fileID: 2341556578735400365}
+  NameText: {fileID: 9173324265636642562}
+  ConjureButton: {fileID: 2341556578735400365}
   Image: {fileID: 6117579954313547932}
   QuantityText: {fileID: 2340713244698810649}
   Item: {fileID: 0}
@@ -288,7 +289,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
-    m_HighlightedColor: {r: 0.45882353, g: 1, b: 0.45882353, a: 1}
+    m_HighlightedColor: {r: 0.26944643, g: 0.3301887, b: 0.26944643, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
